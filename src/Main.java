@@ -20,9 +20,6 @@ public class Main {
             if (printables[i] instanceof Transport) {
                 System.out.println(((Transport) printables[i]).getName() + " Транспорт -> ");
             }
-            if (printables[i] instanceof Animal) {
-                System.out.println(((Animal) printables[i]).getNameDog());
-            }
 
                 System.out.println("-------------");
 
